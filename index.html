@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חנות האופנה שלנו - ביטוי של אהבה וחופש</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courgette', cursive;
+            background: #F9F6F4;
+            color: #B77B7B;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header {
+            padding: 20px;
+            background: #F9F6F4;
+        }
+        .about, .products {
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 48px;
+        }
+        .about p {
+            font-size: 24px;
+            line-height: 1.8;
+        }
+        .products h1 {
+            font-size: 40px;
+            text-align: center;
+            width: 100%;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .about p {
+                font-size: 20px;
+            }
+            .products {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="לוגו עבדים 2png.png" alt="לוגו החברה" style="max-width: 100%; height: auto; display: block; margin: auto;">
+</header>
+
+<section class="about">
+    <h2>✨ מי אנחנו? ✨</h2>
+    <p>
+        אנו מקימי החברה:<br>
+        יגל רצביצים מתימן החות׳י<br>
+        ולייב לוין מרוסיה הסובייטית<br><br>
+        כשפגשנו אחד את השני ידענו מיד שנועדנו זה לזה, ומיד התאהבנו.<br>
+        אנחנו אוהבים לעשות הרבה דברים יחד ובמיוחד להפסיד לניראל בכל משחק אפשרי!<br><br>
+        אנחנו שמחים מאוד להביא לכם את הקולקציה שלנו כדי שכולם יוכלו לראות כמה אסור להתעסק עם ניראל!<br>
+        בכל מה שקשור לסטייל – יש לנו את הסטייל הכי עדכני שיש!<br><br>
+        אנו רוצים להביא לכם את הסטייל שלנו לארון הבגדים שלכם!<br>
+        כדאי לכם להזמין את המוצרים שלנו, אתם תהנו מהם!<br><br>
+        מוצרינו נעשים בעבודה אישית מהחומרים הטובים ביותר ועוברים בקרת איכות על ידינו.<br>
+        מקווים שתהנו....
+    </p>
+    <img src="razabi.jpg" alt="תמונה של מקימי החברה" style="max-width: 100%; height: auto;">
+</section>
+
+<section class="products">
+    <h1>🛍️ הקולקציה שלנו 🛍️</h1>
+    <div class="product"><img src="r1.png" alt="תחתונים סקסיים"><h3>תחתונים סקסיים בהתאמה אישית</h3></div>
+    <div class="product"><img src="r2.png" alt="תחתונים בעיצוב אישי"><h3>תחתונים בעיצוב אישי</h3></div>
+    <div class="product"><img src="r3.png" alt="תחתונים עם אהבה"><h3>תחתונים עם אהבה</h3></div>
+    <div class="product"><img src="r4.png" alt="תחתונים מיוחדים"><h3>תחתונים בעיצוב ייחודי</h3></div>
+    <div class="product"><img src="r5.png" alt="קעקוע סקסי"><h3>קעקוע סקסי</h3></div>
+    <div class="product"><img src="r6.png" alt="קעקוע נשיקות סקסי"><h3>קעקוע נשיקות סקסי</h3></div>
+    <div class="product"><img src="r7.png" alt="פיג׳מה סקסית עבד חות׳י"><h3>פיג׳מה סקסית עבד חות׳י מוציא לשון</h3></div>
+    <div class="product"><img src="r8.png" alt="פיג׳מה סקסית עבד סובייטי"><h3>פיג׳מה סקסית עבד סובייטי מחייך</h3></div>
+    <div class="product"><img src="r9.png" alt="תחתונים בעיצוב מינימלי עבד חות׳י"><h3>תחתונים בעיצוב מינימלי עבד חות׳י</h3></div>
+    <div class="product"><img src="r10.png" alt="תחתונים מינימלים עבד סובייטי מוציא לשון"><h3>תחתונים מינימלים עבד סובייטי מוציא לשון</h3></div>
+    <div class="product"><img src="r11.png" alt="עמוד בובה סקסי שחור"><h3>עמוד בובה סקסי - שחור חות׳י לאנשים שאוהבים שחור.</h3></div>
+    <div class="product"><img src="r12.png" alt="עמוד בובה סקסי לבן"><h3>עמוד בובה סקסי - לבן לאנשים שאוהבים לבן.</h3></div>
+</section>
+
+<footer>
+    <p>© 2025 חנות האופנה שלנו | כל הזכויות שמורות | אל תתעסקו עם ניראל</p>
+</footer>
+
+<div class="whatsapp-container" style="position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px;">
+    <a href="https://wa.me/972586906672?text=שלום%20לך%20עבד%20חות׳י%20של%20ניראל" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background-color: #25D366; border-radius: 50%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); cursor: pointer; transition: transform 0.3s;">
+        <img src="whatsapp.png" alt="רצביצים" style="width: 35px; height: 35px;">
+    </a>
+    <a href="https://wa.me/972542035571?text=שלום%20לך%20עבד%20סובייטי%20של%20ניראל" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background-color: #25D366; border-radius: 50%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); cursor: pointer; transition: transform 0.3s;">
+        <img src="whatsapp.png" alt="לייב הסובייטי" style="width: 35px; height: 35px;">
+    </a>
+</div>
+
+</body>
+</html>
